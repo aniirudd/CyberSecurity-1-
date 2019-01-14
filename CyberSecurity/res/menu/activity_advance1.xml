@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+
+       <item android:id="@+id/ta5 "
+        android:title="https://www.virustotal.com/#/home/upload"/>
+ <item android:id="@+id/ta6"
+        android:title="https://www.joesandbox.com/"/>
+  <item android:id="@+id/ta7"
+        android:title="https://www.hybrid-analysis.com/"/>
+   <item android:id="@+id/ta8"
+        android:title="http://sandbox.pikker.ee/"/>
+</menu>

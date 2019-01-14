@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".First" 
+    android:background="@drawable/back">
+
+    
+<Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/round"
+        android:text="Information Gathering"
+        android:layout_marginLeft="70dp"
+       android:layout_marginRight="70dp"
+        android:textColor="#000"
+        
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/button1"
+        android:layout_marginTop="112dp"
+        android:background="@drawable/round"
+        android:text="Social Engineering "
+        android:textColor="#000"
+        
+        android:textStyle="bold" />
+
+    
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignRight="@+id/button1"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round"
+        android:text="Analysis "
+        android:textColor="#000"
+    
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ITACT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignRight="@+id/button1"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/round"
+        android:text="IT act"
+        android:textColor="#000"
+       
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/ib1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@android:drawable/ic_dialog_info" />
+
+    <Button
+        android:id="@+id/study"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ITACT"
+        android:layout_marginTop="26dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round"
+        android:text="Cases Study"
+        android:textColor="#000"
+        
+        android:textStyle="bold" />
+
+</RelativeLayout>

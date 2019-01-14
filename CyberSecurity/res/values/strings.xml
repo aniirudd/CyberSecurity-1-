@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Saarthi</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_first">Saarthi</string>
+    <string name="title_activity_basic">Saarthi</string>
+    <string name="title_activity_medium">Saarthi</string>
+    <string name="title_activity_advance">Saarthi</string>
+    <string name="title_activity_basic_first">BasicFirst</string>
+    <string name="title_activity_about">Saarthi</string>
+
+</resources>

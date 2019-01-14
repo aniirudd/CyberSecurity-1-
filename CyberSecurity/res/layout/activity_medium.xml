@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Medium" 
+android:background="@drawable/earth">
+
+   <Button
+        android:id="@+id/buttonm1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp"
+        android:text="People Search engine"   android:layout_marginLeft="80dp"
+       android:layout_marginRight="80dp"
+        android:background="@drawable/round"
+        />
+  <Button
+        android:id="@+id/buttonm2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonm1"
+        android:layout_alignRight="@+id/buttonm1"
+        android:layout_below="@+id/buttonm1"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round"
+        android:text="Telephone Number Search" />
+    
+
+    <Button
+        android:id="@+id/buttonm3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonm2"
+        android:layout_alignRight="@+id/buttonm2"
+        android:layout_below="@+id/buttonm2"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round"
+        android:text="Image Search" />
+    <Button
+        android:id="@+id/buttonm4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonm3"
+        android:layout_alignRight="@+id/buttonm3"
+        android:layout_below="@+id/buttonm3"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round"
+        android:text="Videos Search" />
+
+  
+    <Button
+        android:id="@+id/buttonm5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonm4"
+        android:layout_alignRight="@+id/buttonm4"
+        android:layout_below="@+id/buttonm4"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round"
+        android:text="Button5" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonm4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/buttonm5"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/round"
+        android:text="Back"
+        android:textColor="#000"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/intel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonm4"
+        android:layout_alignRight="@+id/buttonm4"
+        android:layout_below="@+id/buttonm4"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round"
+        android:text="IntelTechniques" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonm2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/people2" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonm3"
+        android:layout_alignLeft="@+id/imageView1"
+        android:src="@drawable/telphonesearch" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonm4"
+        android:layout_alignLeft="@+id/imageView2"
+        android:src="@drawable/imagesearch" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView3"
+        android:layout_alignTop="@+id/buttonm4"
+        android:src="@drawable/videosearch" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView4"
+        android:layout_alignTop="@+id/buttonm5"
+        android:src="@drawable/intel" />
+
+</RelativeLayout>

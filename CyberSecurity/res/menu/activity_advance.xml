@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+ 
+      
+   <item android:id="@+id/ta1 "
+        android:title="inliteresearch"/>
+ 
+ 
+ <item android:id="@+id/ta2"
+        android:title="https://gchq.github.io/CyberChef/"/>
+ 
+ 
+ <item android:id="@+id/ta3 "
+        android:title="Functions-online/"/>
+ 
+ 
+
+    
+</menu>

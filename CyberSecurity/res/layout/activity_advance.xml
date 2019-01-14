@@ -1,0 +1,127 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Advance" android:background="@drawable/earth">
+
+   <Button
+        android:id="@+id/buttona1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp"
+        
+        android:text="Encoding/Decoding"   android:layout_marginLeft="80dp"
+       android:layout_marginRight="80dp"
+        android:background="@drawable/round"
+        />
+
+  
+
+    <Button
+        android:id="@+id/buttona2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttona1"
+        android:layout_alignRight="@+id/buttona1"
+        android:layout_below="@+id/buttona1"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round"
+        android:text="Malicious File Analysis" />
+
+
+    <Button
+        android:id="@+id/buttona3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttona2"
+        android:layout_alignRight="@+id/buttona2"
+        android:layout_below="@+id/buttona2"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round"
+        android:text="Threat Intelligence" />
+      <Button
+        android:id="@+id/buttona4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttona3"
+        android:layout_alignRight="@+id/buttona3"
+        android:layout_below="@+id/buttona3"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round"
+        android:text="Forensics Tools
+" />
+    
+
+    <Button
+        android:id="@+id/buttona5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttona4"
+        android:layout_alignRight="@+id/buttona4"
+        android:layout_below="@+id/buttona4"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round"
+        android:text="No More Ransom" />
+    <Button
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttona4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/buttona5"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/round"
+        android:text="Back"
+        android:textColor="#000"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/buttona5"
+        android:layout_marginRight="14dp"
+        android:layout_toLeftOf="@+id/buttona5"
+        android:src="@drawable/nomore" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttona2"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/buttona2"
+        android:src="@drawable/encode" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/imageView2"
+        android:layout_alignTop="@+id/buttona2"
+        android:src="@drawable/malisys" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/imageView3"
+        android:layout_alignTop="@+id/buttona3"
+        android:src="@drawable/threat" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttona5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/imageView4"
+        android:layout_below="@+id/imageView4"
+        android:src="@drawable/forensic" />
+
+</RelativeLayout>

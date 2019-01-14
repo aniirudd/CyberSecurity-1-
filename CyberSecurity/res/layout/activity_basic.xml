@@ -1,0 +1,152 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Basic" 
+    android:background="@drawable/earth"
+    >
+
+    <Button
+        android:id="@+id/buttonb4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonb3"
+        android:layout_alignRight="@+id/buttonb3"
+        android:layout_below="@+id/buttonb3"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round"
+        android:text="E-mail Header Analysis" />
+
+    <Button
+        android:id="@+id/buttonb3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonb2"
+        android:layout_alignRight="@+id/buttonb2"
+        android:layout_below="@+id/buttonb2"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round"
+        android:text="Email Verifier" />
+
+    <Button
+        android:id="@+id/buttonb2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonb1"
+        android:layout_alignRight="@+id/buttonb1"
+        android:layout_below="@+id/buttonb1"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round"
+        android:text="Domain/website Name Search" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonb4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/buttonb5"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/round"
+        android:text="Back"
+        android:textColor="#000"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonb5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonb4"
+        android:layout_alignRight="@+id/buttonb4"
+        android:layout_below="@+id/buttonb4"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round"
+        android:text="wayback machine/archive" />
+
+    <Button
+        android:id="@+id/buttonb1"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_marginLeft="80dp"
+       android:layout_marginRight="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/round"
+        android:text="IP Address Search" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/buttonb1"
+        android:layout_marginRight="14dp"
+        android:layout_toLeftOf="@+id/buttonb2"
+        android:src="@drawable/ipinformation" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignTop="@+id/buttonb2"
+        android:src="@drawable/domainname" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/imageView4"
+        android:layout_alignTop="@+id/buttonb3"
+        android:src="@drawable/emailverifiar" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/buttonb4"
+        android:layout_toLeftOf="@+id/buttonb5"
+        android:src="@drawable/emailheader" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/buttonb5"
+        android:layout_toLeftOf="@+id/buttonb5"
+        android:src="@drawable/wayback" />
+
+    <Button
+        android:id="@+id/buttonb6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/back"
+        android:layout_alignRight="@+id/back"
+        android:layout_below="@+id/buttonb5"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round"
+        android:text="Nirsoft" />
+ <Button
+        android:id="@+id/buttonb7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/back"
+        android:layout_alignRight="@+id/back"
+        android:layout_below="@+id/buttonb6"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round"
+        android:text="IMEI Search" />
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/imageView5"
+        android:layout_alignTop="@+id/buttonb6"
+        android:src="@drawable/n" />
+
+</RelativeLayout>
